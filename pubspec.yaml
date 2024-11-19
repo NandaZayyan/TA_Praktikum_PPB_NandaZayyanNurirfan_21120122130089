@@ -1,0 +1,32 @@
+name: ta_ppb_dota2
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.5.0
+  audioplayers: ^6.1.0
+  
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/juggernaut.1920x1080.mp4
+    - assets/items.json
+    - assets/heroes.json
+  uses-material-design: true
+
